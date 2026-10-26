@@ -1,0 +1,66 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أنثى جميلة | صالون نسائي - بئر عثمان، المدينة المنورة</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blush:#F7E4E8;--blush2:#FBF1F3;--mauve:#7A4E8C;--lav:#B79BC8;--lav2:#EFE7F4;--gold:#C9A45C;--ink:#3E2A47}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Tajawal,sans-serif;color:var(--ink);background:#fff;line-height:1.8}
+a{color:inherit}header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--gold);display:flex;align-items:center;justify-content:space-between;padding:8px 16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--mauve)}.brand img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:1px solid var(--gold)}
+nav a{text-decoration:none;margin:0 8px;font-size:.95rem}nav{display:none}@media(min-width:900px){nav{display:block}}
+#demoBadge{position:fixed;top:70px;left:10px;z-index:30;background:var(--lav2);color:var(--mauve);border:1px solid var(--lav);border-radius:20px;padding:3px 12px;font-size:.8rem;font-weight:700}
+.btn{display:inline-block;background:var(--mauve);color:#fff;border:0;border-radius:30px;padding:12px 28px;font:700 1rem Tajawal;cursor:pointer;text-decoration:none}.btn.alt{background:#fff;color:var(--mauve);border:1px solid var(--mauve)}
+.hero{position:relative;min-height:78vh;display:flex;align-items:center;padding:40px 20px;background:linear-gradient(rgba(247,228,232,.82),rgba(239,231,244,.88)),url(img/maps05.jpg) center/cover}
+.hero h1{font-size:2.4rem;color:var(--mauve);line-height:1.3}.hero p{margin:12px 0 20px;font-size:1.1rem}.hero .rate{color:var(--gold);font-weight:700}
+section{padding:56px 20px;max-width:1100px;margin:auto}h2{color:var(--mauve);font-size:1.8rem;margin-bottom:6px}h2:after{content:"";display:block;width:50px;height:2px;background:var(--gold);margin-top:6px}
+.band{background:var(--blush2)}.band2{background:var(--lav2)}.wrap{max-width:none}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-top:20px}
+.card{background:#fff;border:1px solid #eadbe6;border-radius:16px;padding:18px}.card h3{color:var(--mauve)}
+.feat{display:grid;gap:20px;align-items:center;margin-top:20px}@media(min-width:800px){.feat{grid-template-columns:1fr 1fr}}.feat img{width:100%;border-radius:18px;aspect-ratio:4/3;object-fit:cover}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:20px}@media(min-width:800px){.gal{grid-template-columns:repeat(4,1fr)}}.gal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;cursor:zoom-in}
+#lightbox{display:none;position:fixed;inset:0;background:rgba(62,42,71,.88);z-index:50;align-items:center;justify-content:center}#lightbox.open{display:flex}#lightbox img{max-width:92vw;max-height:88vh;border-radius:10px}
+.ltr{direction:ltr;unicode-bidi:embed;display:inline-block}iframe{width:100%;height:320px;border:0;border-radius:16px;margin-top:16px}
+footer{background:var(--blush);text-align:center;padding:24px;border-top:1px solid var(--gold);font-size:.9rem}
+</style></head><body>
+<div id="demoBadge">نسخة تجريبية / Demo</div>
+<header><div class="brand"><img src="img/maps01.jpg" alt="شعار أنثى جميلة">أنثى جميلة</div>
+<nav><a href="#services">الخدمات</a><a href="#team">الفريق</a><a href="#kids">حفلات الأطفال</a><a href="#gallery">المعرض</a><a href="#reviews">الآراء</a><a href="#contact">تواصلي</a></nav>
+<button class="btn" style="padding:8px 18px" onclick="openChat()">احجزي</button></header>
+<div class="hero" id="home"><div><h1>أنثى جميلة<br>صالون نسائي في بئر عثمان</h1>
+<p>استشوار، فيلر الشعر، أظافر، حناء وعناية متكاملة — في أجواء أنثوية راقية بالمدينة المنورة.</p>
+<p class="rate">★ 4.5 من 166 مراجعة</p><p>مفتوح يومياً ٣ عصراً – ١١ مساءً</p>
+<button id="bookBtn" class="btn" onclick="openChat()">احجزي موعدك</button></div></div>
+<section id="services"><h2>خدماتنا</h2>
+<div class="feat"><img loading="lazy" src="img/maps16.jpg" alt="الاستشوار"><div><h3 style="color:var(--mauve);font-size:1.5rem">الاستشوار والتصفيف ✨</h3><p>خدمتنا الأشهر: استشوار وتصفيف بأيدي فريقنا المتخصص لإطلالة ناعمة تدوم.</p><br><button class="btn" onclick="openChat()">احجزي استشوار</button></div></div>
+<div class="grid">
+<div class="card"><h3>العناية بالشعر</h3><p>فيلر الشعر، قص، تصفيف.</p></div>
+<div class="card"><h3>الأظافر</h3><p>جل، أكريليك، ديب باودر، تركيب ورسم.</p></div>
+<div class="card"><h3>مناكير وباديكير</h3><p>عناية كاملة باليدين والقدمين.</p></div>
+<div class="card"><h3>الحناء</h3><p>نقوش حناء لكل المناسبات.</p></div>
+<div class="card"><h3>البشرة</h3><p>تنظيف بشرة وفتلة.</p></div>
+<div class="card"><h3>المكياج</h3><p>مكياج للمناسبات.</p></div></div></section>
+<div class="band"><section id="team"><h2>فريقنا</h2><div class="grid">
+<div class="card"><h3>أميرة</h3><p>استشوار وقص</p></div><div class="card"><h3>شمايل</h3><p>باديكير وتنظيف بشرة</p></div>
+<div class="card"><h3>فاطمة</h3><p>فيلر الشعر</p></div><div class="card"><h3>خديجة</h3><p>الشعر</p></div>
+<div class="card"><h3>فانيسا</h3><p>الأظافر</p></div><div class="card"><h3>سارة</h3><p>الحناء</p></div></div></section></div>
+<section id="kids"><h2>حفلات باديكير الأميرات 👑</h2><div class="feat"><img loading="lazy" src="img/maps15.jpg" alt="حفلات الأطفال"><div>
+<p>حفلة باديكير للصغيرات بأجواء أميرات، مع هدية لكل طفلة. مناسبة لأعياد الميلاد والتجمعات.</p><br><button class="btn" onclick="openChat()">احجزي حفلة</button></div></div></section>
+<div class="band2"><section id="gallery"><h2>من داخل الصالون</h2><div class="gal"><img loading="lazy" src="img/maps02.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps03.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps04.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps06.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps07.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps08.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps09.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps10.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps11.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps12.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps13.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps15.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps16.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps17.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps18.jpg" alt="من داخل الصالون" onclick="lb(this.src)"><img loading="lazy" src="img/maps19.jpg" alt="من داخل الصالون" onclick="lb(this.src)"></div></section></div>
+<section id="reviews"><h2>ماذا تقول عميلاتنا</h2><p>★ 4.5 من 166 مراجعة على خرائط Google</p><div class="grid">
+<div class="card"><h3>استقبال دافئ</h3><p>تشيد العميلات بلطف المديرة وطاقم الاستقبال.</p></div>
+<div class="card"><h3>ضيافة مميزة</h3><p>كرم الضيافة وركن القهوة.</p></div>
+<div class="card"><h3>ديكور أنثوي راقٍ</h3><p>أجواء مريحة وتصميم أنيق.</p></div>
+<div class="card"><h3>عروض جميلة</h3><p>عروض مميزة على الخدمات.</p></div></div></section>
+<div class="band"><section id="booking" style="text-align:center"><h2 style="display:inline-block">احجزي موعدك</h2>
+<p>اختاري الخدمة والمختصة والوقت عبر مساعدتنا الذكية — يومياً من ٣ عصراً حتى ١١ مساءً.</p><br><button class="btn" onclick="openChat()">ابدئي الحجز</button></section></div>
+<section id="contact"><h2>تواصلي معنا</h2>
+<p>📍 2527 جبلة بن عمرو، بئر عثمان، المدينة المنورة 42331</p>
+<p>📞 <a class="ltr" href="tel:+966590349439">059 034 9439</a></p><p>🕒 يومياً ٣ عصراً – ١١ مساءً · الدفع بالبطاقة متاح</p><br>
+<a class="btn alt" href="https://wa.me/966590349439" target="_blank" rel="noopener">واتساب</a>
+<iframe loading="lazy" src="https://www.google.com/maps?q=24.50398,39.58084&z=16&output=embed" title="الخريطة"></iframe></section>
+<footer>© أنثى جميلة — بئر عثمان، المدينة المنورة · نسخة تجريبية</footer>
+<div id="lightbox" onclick="this.classList.remove('open')"><img id="lbImg" alt=""></div>
+<script>function lb(s){document.getElementById('lbImg').src=s;document.getElementById('lightbox').classList.add('open')}
+function openChat(){if(window.voiceflow&&window.voiceflow.chat){window.voiceflow.chat.open()}else{window.__openWhenReady=true}}</script>
+<script type="text/javascript">
+(function(d,t){var v=d.createElement(t),s=d.getElementsByTagName(t)[0];v.onload=function(){window.voiceflow.chat.load({verify:{projectID:'6adfa08e4f1062d55498589e'},url:'https://general-runtime.voiceflow.com',voice:{url:'https://runtime-api.voiceflow.com'},environmentID:'main',versionVariant:'published'}).then(function(){if(window.__openWhenReady)window.voiceflow.chat.open()})};v.src="https://cdn.voiceflow.com/widget-next/bundle.mjs";v.type="text/javascript";s.parentNode.insertBefore(v,s)})(document,'script');
+</script></body></html>
